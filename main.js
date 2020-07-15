@@ -44,7 +44,7 @@ function showNotes() {
     });
 
 
-   let noteElem = document.getElementById('.notes')
+   let noteElem = document.getElementById('notes')
    if(notesObj.length !=0){
        noteElem.innerHTML = html;
    }
